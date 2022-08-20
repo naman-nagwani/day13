@@ -8,15 +8,15 @@ public class MaximumMain {
         Maximum obj = new Maximum();
 
         System.out.print(" Please enter the first value: ");
-        float first = scan.nextFloat();
+        String first = scan.next();
 
         System.out.print(" Please enter the second value: ");
-        float second = scan.nextFloat();
+        String second = scan.next();
 
         System.out.print(" Please enter the third value: ");
-        float third = scan.nextFloat();
+        String third = scan.next();
 
-        obj.findMaxFloat(first, second, third);
+        obj.findMaxString(first, second, third);
 
         scan.close();
     }
