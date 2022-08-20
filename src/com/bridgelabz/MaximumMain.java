@@ -5,18 +5,18 @@ import java.util.Scanner;
 public class MaximumMain {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        Maximum maximum = new Maximum();
+        Maximum obj = new Maximum();
 
         System.out.print(" Please enter the first value: ");
-        int first = scan.nextInt();
+        float first = scan.nextFloat();
 
         System.out.print(" Please enter the second value: ");
-        int second = scan.nextInt();
+        float second = scan.nextFloat();
 
         System.out.print(" Please enter the third value: ");
-        int third = scan.nextInt();
+        float third = scan.nextFloat();
 
-        maximum.findMax(first, second, third);
+        obj.findMaxFloat(first, second, third);
 
         scan.close();
     }
